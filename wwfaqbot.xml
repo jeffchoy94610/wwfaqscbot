@@ -1,39 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-- phpMyAdmin XML Dump
-- version 4.0.10.14
-- http://www.phpmyadmin.net
--
-- Host: localhost:3306
-- Generation Time: Aug 27, 2016 at 04:14 AM
-- Server version: 5.5.49-cll-lve
-- PHP Version: 5.6.20
--->
 
-<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
-    <!--
-    - Structure schemas
-    -->
-    <pma:structure_schemas>
-        <pma:database name="wwfaqbot" collation="latin1_swedish_ci" charset="latin1">
-            <pma:table name="wwfaqbot">
-                CREATE TABLE `wwfaqbot` (
-                  `num` int(11) NOT NULL,
-                  `type` int(1) NOT NULL DEFAULT '0',
-                  `title` varchar(100) NOT NULL,
-                  `description` text NOT NULL,
-                  `content` text NOT NULL,
-                  `importance` text NOT NULL,
-                  PRIMARY KEY (`num`),
-                  UNIQUE KEY `num` (`num`)
-                ) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
-            </pma:table>
-        </pma:database>
-    </pma:structure_schemas>
-
-    <!--
-    - Database: 'wwfaqbot'
-    -->
     <database name="wwfaqbot">
         <!-- Table wwfaqbot -->
         <table name="wwfaqbot">
