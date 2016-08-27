@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10.14
+- http://www.phpmyadmin.net
+-
+- Host: localhost:3306
+- Generation Time: Aug 27, 2016 at 04:14 AM
+- Server version: 5.5.49-cll-lve
+- PHP Version: 5.6.20
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="wwfaqbot" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="wwfaqbot">
+                CREATE TABLE `wwfaqbot` (
+                  `num` int(11) NOT NULL,
+                  `type` int(1) NOT NULL DEFAULT '0',
+                  `title` varchar(100) NOT NULL,
+                  `description` text NOT NULL,
+                  `content` text NOT NULL,
+                  `importance` text NOT NULL,
+                  PRIMARY KEY (`num`),
+                  UNIQUE KEY `num` (`num`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'wwfaqbot'
+    -->
+    <database name="wwfaqbot">
+        <!-- Table wwfaqbot -->
+        <table name="wwfaqbot">
+            <column name="num">1</column>
+            <column name="type">0</column>
+            <column name="title">STUCKNODE</column>
+            <column name="description">Use /version, Switch bots</column>
+            <column name="content">Hello! It seems one of the bot's nodes are stuck, which basically means a number of groups can't use game commands until the node stops!
+
+To make sure that's the case (and help us!), please use /version on your group and forward the answer here - if the node id is the same as other groups who are experiencing this issue, that means you're all on a stuck node!
+
+DO NOT DELETE YOUR GROUP! That may render you unable to play. Instead, you can temporarily switch bots (from @werewolfbot to @werewolfIIbot and vice versa), or just wait until the devs can stop the node to fix it!</column>
+            <column name="importance">HIGH</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">2</column>
+            <column name="type">0</column>
+            <column name="title">PEAKTIME</column>
+            <column name="description">API Limits, Please wait</column>
+            <column name="content">Right now is peak usage time.  There are so many people playing, Telegram is now rate limiting the bot.  There is nothing I can do about this.  Once we hit ~4000 players simultaneously, the bot is sending more messages than Telegram will allow, so Telegram stops it from sending any more.
+
+Again, there is nothing I can do about this.  Development has currently started on a new Werewolf game, and most of my focus is on that right now.
+
+Also, please - this is the support group. Ask your questions here, do not PM the developer.  He already has &gt;800 chats open from everyone sending PMs.</column>
+            <column name="importance">HIGH</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">5</column>
+            <column name="type">0</column>
+            <column name="title">OFFTOPIC</column>
+            <column name="description">Send out offtopic link..</column>
+            <column name="content">Hey everyone! We have made a new channel to talk anything off topic related. Please join us here at https://telegram.me/OfftopicWW and keep this channel more support related and less off topic</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">6</column>
+            <column name="type">0</column>
+            <column name="title">ADDBOT</column>
+            <column name="description">How to add wwbot?</column>
+            <column name="content">You can add it just like you would add a friend by their usernames (click Add Member and then type @werewolfIIbot into the search box), or you can go to the bot's profile by clicking its name and click 'Add to group'!</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">7</column>
+            <column name="type">0</column>
+            <column name="title">PLAYWW</column>
+            <column name="description">How to play werewolf</column>
+            <column name="content">How to play:
+
+a. start a game
+
+you can either join games big groups in /grouplist@werewolfbot
+or
+you can add @werewolfbot to your own groups and start the game in your groups with friends.
+
+b. what is werewolf
+
+Werewolf is a text based game where there is a village. Most of the people are villagers and some of them are werewolves. The game cycles through day and night. During the day the whole village votes to lynch someone and at night the werewolves choose someone to kill. The villagers win when all of the werewolves are dead. The werewolves win when there are more werewolves than villagers</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">8</column>
+            <column name="type">0</column>
+            <column name="title">SPAM</column>
+            <column name="description">Spamming commands is bad</column>
+            <column name="content">A few people are getting banned for flooding the bot.  Let me explain a few things here:
+
+Spamming a command is not some kind of magic.  Hitting a command 40 times will not make anything magical happen.  It's like the button on an elevator - pressing it multiple times is not a secret passcode or anything.
+
+The spam detection is actually quite lenient.  If you hit it, you were seriously spamming it.  The bot also warns you before it bans you.  
+
+Here's the bigger reason why this happens though - 
+Everytime you hit a command, it's meant to get a response from the bot.  Each time the bot has to send a command, it counts towards the API limit.  So spamming a command reaches the bot towards API limits, and lags the bot for EVERYONE.  This is why we are very strict about spamming the bot - if you do it enough for the bot to auto-ban you, that's on you.  You were given a warning and continued to spam the bot.</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">9</column>
+            <column name="type">0</column>
+            <column name="title">GROUPLIST</column>
+            <column name="description">How to get in the grouplist?</column>
+            <column name="content">To add your group to the grouplist, first find out if it's a public or private groups! Public groups have usernames, like @werewolfcommittee, while private groups have invite links, like https://telegram.me/joinchat/B7EXdD1l2nZnyyHrsP0ZYw ! A public group should automatically appear on the list, but a private group must be added by their admin. To do that, just use the setlink command! Usage is as follows:
+/setlink https://telegram.me/joinchat/B7EXdD1l2nZnyyHrsP0ZYw
+If it doesn't work, please try /setlink@werewolfbot or /setlink@werewolfIIbot, depending on which bot is in your group!
+
+Please keep in mind that each language\'s list only has the top 10 biggest groups! If your group is smaller than all of them, it won\'t appear until it gets bigger!</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">10</column>
+            <column name="type">0</column>
+            <column name="title">UPDATES</column>
+            <column name="description">When will we get new features?</column>
+            <column name="content">Para has a lot to do, and has mostly been coding werewolf at work. Werewolf is a crapload of stress and time, and he has a lot to do. Updates are planned, but are not anywhere close to a priority right now.</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">11</column>
+            <column name="type">0</column>
+            <column name="title">STOP</column>
+            <column name="description">How to stop/kill a game?</column>
+            <column name="content">To stop a game just use /smite on everyone playing!
+Alternatively, if the game is still on its joining phase and hasn't reached five players yet, you can use /forcestart!
+
+While the killgame command does exist, it should only be used in true emergencies like bugged groups, and as such is only usable by global admins.</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">12</column>
+            <column name="type">0</column>
+            <column name="title">AMNESIA</column>
+            <column name="description">Bot not telling your role?</column>
+            <column name="content">If the bot isn't telling you your role, there are a few possibilities!
+
+1: If the bot sent you something among the lines of &quot;You can't seem to remember your role!&quot;, your group's language is set to Amnesia Mode! Ask an admin to change it to another mode if you don't like it!
+
+2: If the bot hasn't sent you any PMs at all, please check if you have started the bot! Be careful: there are two bots, you may have started only one of them!
+
+3: If you have started the right bot, it used to send you PMs and doesn't anymore, please keep talking to us so we can try to find out what the issue is!</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">13</column>
+            <column name="type">0</column>
+            <column name="title">SKKILL</column>
+            <column name="description">Why sk didn't kill harlot too, difference between sk/ww kills</column>
+            <column name="content">The difference between a Serial Killer and a Werewolf is that, while a Werewolf chooses a house to attack and kills everyone inside (and only the people inside), the Serial Killer chooses a victim, tracks them to wherever they are and kills only them, regardless of who else is in the house.
+
+That means a wolf will not be able to kill a harlot if she's not home, but will kill one if she's at his chosen house... And a serial killer won't kill a harlot if she's at his victim's house, but will kill a harlot if he chooses her as his victim regardless of whose house she's in.</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">15</column>
+            <column name="type">0</column>
+            <column name="title">SPAMPERIOD</column>
+            <column name="description">Spam Periods at different stages</column>
+            <column name="content">As of this point, the automatic flood detection has been updated.  If you spam the bot, you will be given a warning.  After that, banning will set in. 
+First ban: 12 hours
+Second ban: 1 day
+Third ban: 3 days
+Fourth ban: You are done. You are forever banned from @werewolfbot
+
+When you get banned, the bot will no longer respond to you.  It won\'t even say \&quot;You are banned\&quot; - this would just allow spammers to keep spamming the bot, which wouldn\'t solve anything. There will be no more ban appeals for spamming</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">20</column>
+            <column name="type">0</column>
+            <column name="title">SETUP</column>
+            <column name="description">Support on cloning the bot will NOT be given</column>
+            <column name="content">Support WILL NOT be given on @werewolfsupport if you have no idea what compile or runtime or any of these things mean.  If you are a serious developer, and we can tell you at least got most of it done, we can answer small questions (it is possible Para left something out of the setup guide) Cause if you try to set up a bot, you should have some basis (google IS a good place to start).</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">19</column>
+            <column name="type">0</column>
+            <column name="title">HOWTO</column>
+            <column name="description">how to kill/vote/lynch?</column>
+            <column name="content">The bots will send you the choices via PM, just simply click on the options.</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">21</column>
+            <column name="type">0</column>
+            <column name="title">CHAOS</column>
+            <column name="description">Difference between Chaos and Normal</column>
+            <column name="content">Differently from Normal Mode, in which roles are distributed according to the number of players in the game (for example, a 5-people game will only have Drunk, Villager, Wolf and Tanner as possible roles), Chaos Mode will take roles randomly from all of the available roles in the game and distribute them to players regardless of how many are in the game - so, while a Normal game would only have a Serial Killer if it had at least 25 players, a Chaos game could have one in a 5-people game.
+
+There are some rules Chaos Mode follows when deciding roles, though! Cultists will only be available as a role in games with more than 10 people, and no Chaos game should ever start out with more than 1/6 of its population being a wolf (Cursed, Traitor etc is not counted)!</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">22</column>
+            <column name="type">0</column>
+            <column name="title">CHANGELANG</column>
+            <column name="description">How to change the bot's language</column>
+            <column name="content">First, please keep in mind there are two different language configurations! Use /setlang to change the language the bot should use with you on PM, while you use /rolelist or other commands like that one. Use /config on a group if you're its admin and want to change the language the bot uses on your group and on its games (including PMs relating to such games!)</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">23</column>
+            <column name="type">0</column>
+            <column name="title">BOTSISSUE</column>
+            <column name="description">We know both bots are having issues, wait and don't spam</column>
+            <column name="content">Hello! We are aware the bots are experiencing issues! Our dev team is working on fixing that, so please be patient!
+
+In the meanwhile, to ensure the group's order and to protect the bot from further issues, please DO NOT USE COMMANDS, including ping! The less commands the bot is sent, the faster it'll recover.
+
+On times of stress like this one, we kick fast. Do not be off-topic or use commands in this group, or you'll be immediatelly kicked!</column>
+            <column name="importance">HIGH</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">24</column>
+            <column name="type">0</column>
+            <column name="title">BOT1ISSUE</column>
+            <column name="description">We know bot 1 is having issues, switch to 2</column>
+            <column name="content">Hello! We are aware @werewolfbot is experiencing issues! Our dev team is working on fixing that, so please be patient!
+
+In the meanwhile, please make your group temporarily switch from @werewolfbot to @werewolfIIbot, as the second bot is not experiencing these issues!</column>
+            <column name="importance">HIGH</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">25</column>
+            <column name="type">1</column>
+            <column name="title">ADDADMIN</column>
+            <column name="description">How to add the bot/people as admin?</column>
+            <column name="content">AgADBQADNagxG7mXWwZtNClrRlLTRJ7SsTIABNFEi36YemBcE8kBAAEC</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">29</column>
+            <column name="type">0</column>
+            <column name="title">SMITE</column>
+            <column name="description">How to smite?</column>
+            <column name="content">To smite a player (or multiple players!), just mention them after your smite command! Your message should look like this:
+/smite @username1 @username2
+
+If they don't have an username, you can also mention by name by typing @ and then following with their name!
+
+If they both don't have an username and aren't in the group anymore, you can also smite by id! Find out a user's ID by replying to one of their messages with /id if you have Werewolf Enforcer on your group, or by forwarding one of their messages to @userinfobot if you don't. Once you have that player's ID, smite by using /smite 00000000 (in which 00000000 is the user's ID)
+
+(Smiting used to work by reply, but it doesn't anymore)</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">26</column>
+            <column name="type">0</column>
+            <column name="title">CULTCONVERSION</column>
+            <column name="description">Cult conversion chances, who kills cultists	</column>
+            <column name="content">CHANCES A CERTAIN ROLE WILL BE CONVERTED:
+Seer: 40%
+Guardian Angel: 60%
+Detective: 70%
+Cursed: 60%
+Harlot: 70%
+Hunter: 50%
+(Untransformed) Doppelganger: 0%
+Werewolf: 0%
+
+ROLES THAT KILL CULT:
+Hunter: 25% chance of killing cult (50% chance conversion fails, and then 50% chance hunter kills cultist considering conversion failed)
+Serial Killer
+Cultist Hunter
+
+ROLES THAT WILL ALWAYS BE CONVERTED:
+Mason
+Drunk
+Beholder
+Gunner
+Traitor
+Apprentice Seer
+Wild Child
+Fool
+Cupid
+Tanner</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">27</column>
+            <column name="type">0</column>
+            <column name="title">HOWTOPLAY</column>
+            <column name="description">Werewolf Game Flow Explained</column>
+            <column name="content">1. Start a game using /startgame or /startchaos. After the game is started, everyone can /join.
+2. When the game start, the bot will pm you your role. It will contain your role name and your ability and when to use it (if any).
+3. The game will start at night phase. At this time, cupid, wild child, and Doppelganger will choose the target of their abilities.
+4. At night phase, night players will be contacted to use their ability. Choose the target from the list sent by the bot. The result will be pm'd by the bot at the end of the night.
+5. After certain time or after all the night players uses all their abilities, the game enter day phase. At this phase, day players can use their abilities. Choose the target from the list sent by the bot by pm. The result will be apparent by the bot at the end of the day.
+6. At daytime, the players can argue within the village on who to lynch until the end of the day. At the end of the day, the players can vote by choosing from the list sent by the bot via pm. The recipient of most votes will be killed. In case of tie, no one will be lynched.
+7. After lynching is over, the game shifts into night phase.
+8. Repeat no. 4 - 7 until a team wins.</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">28</column>
+            <column name="type">0</column>
+            <column name="title">WWTEAMS</column>
+            <column name="description">Werewolf Game Teams Explained</column>
+            <column name="content">There are at least 2 teams:
+1. Team village. Objective: to lynch all opposing teams
+2. Team werewolf. Objective: To survive until half the population is werewolf. Each night, team werewolf can feast on someone.
+
+After a certain number of player (and/or in chaos mode), we have other teams:
+3. Team Cult. Objective: to convert all the population into cultists. Each night, team cult can try to convert someone.
+
+There are some individual who have specific win conditions, too:
+4. Serial Killer. Objective: to survive alone in the village. Each night, the serial killer can kill someone.
+5. Tanner. Objective: to be lynched by the village.
+6. Lovers. Not a proper team but a trait shared by two people: if one dies, the other will follow. It also gives special win condition to both lovers: if one win, the other will also win, regardless of their teams. For example, if the lovers is a tanner and a werewolf, if the tanner is lynched, the werewolf will also die. But because the tanner wins, the werewolf will also win while the other werewolves (if any) lose. Try to survive as the last two people standing to get special Lovers Ending!</column>
+            <column name="importance">LOW</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">30</column>
+            <column name="type">0</column>
+            <column name="title">PLAYERSLIST</column>
+            <column name="description">Why doesn't the players list show up?</column>
+            <column name="content">Players list is now automatically sent at the end of each day / lynch / night cycle, IF a player has died / fled.
+Running /players will not send the whole list, but simply reply to the most recent list.  Less spam in large groups!
+
+If the game has not started yet, there is no latest list for the bot to reply to, and it will not send one.</column>
+            <column name="importance">HIGH</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">31</column>
+            <column name="type">0</column>
+            <column name="title">BOT2ISSUE</column>
+            <column name="description">bot 2 is currently experiencing issues</column>
+            <column name="content">Hello! We are aware @werewolfiibot is experiencing issues! Our dev team is working on fixing that, so please be patient!
+
+In the meantime, please don't spam any commands to bot2.</column>
+            <column name="importance">HIGH</column>
+        </table>
+        <table name="wwfaqbot">
+            <column name="num">32</column>
+            <column name="type">0</column>
+            <column name="title">GOTBANNED</column>
+            <column name="description">I got banned! How to get unbanned?</column>
+            <column name="content">Which group was it? Groups are owned by the creator of the group, not by us. If you want to be unbanned from a werewolf group you need to contact an admin from that group. If you tell me which group it was, I can help you find out who to contact.</column>
+            <column name="importance">LOW</column>
+        </table>
+    </database>
+</pma_xml_export>
