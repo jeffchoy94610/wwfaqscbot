@@ -4,7 +4,9 @@ Translation for wwfaqbot Simplified Chinese version
 PLEASE TRANSLATE ONLY THE VALUE BETWEEN:
 
 `<column name="title">XXXXX</column>
+
 <column name="description">XXXXXXX</column>
+
 <column name="content">XXXXXXXXXXXX</column>`
 
 Title 是標題
