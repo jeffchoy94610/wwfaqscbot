@@ -5,199 +5,196 @@
         <table name="wwfaqbot">
             <column name="num">1</column>
             <column name="type">0</column>
-            <column name="title">STUCKNODE</column>
-            <column name="description">Use /version, Switch bots</column>
-            <column name="content">Hello! It seems one of the bot's nodes are stuck, which basically means a number of groups can't use game commands until the node stops!
+            <column name="title">节点卡死了</column>
+            <column name="description">使用 /version ，更换机器人</column>
+            <column name="content">嘿！看起来机器人有一个节点卡死了。这通常表示有一部分群组无法使用游戏命令直到这个节点停止为止。
 
-To make sure that's the case (and help us!), please use /version on your group and forward the answer here - if the node id is the same as other groups who are experiencing this issue, that means you're all on a stuck node!
+要明确是否是这个情况发生（然后帮助我们！），请在你的群组中使用 /version 命令，然后把回答转发到这里。如果节点ID和其他遭受同一个情况的群组所用的节点ID一致，那就说明你们都在使用同一个卡死了的节点！
 
-DO NOT DELETE YOUR GROUP! That may render you unable to play. Instead, you can temporarily switch bots (from @werewolfbot to @werewolfIIbot and vice versa), or just wait until the devs can stop the node to fix it!</column>
+不要删除你的群组！这会使得你没法玩。作为替代，你可以暂时切换机器人（从 @werewolfbot 到 @werewolfIIbot 或者反过来），或者就这么等到开发人员把这个节点停掉来修复它！</column>
             <column name="importance">HIGH</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">2</column>
             <column name="type">0</column>
-            <column name="title">PEAKTIME</column>
-            <column name="description">API Limits, Please wait</column>
-            <column name="content">Right now is peak usage time.  There are so many people playing, Telegram is now rate limiting the bot.  There is nothing I can do about this.  Once we hit ~4000 players simultaneously, the bot is sending more messages than Telegram will allow, so Telegram stops it from sending any more.
+            <column name="title">高峰期</column>
+            <column name="description">达到了 API 限制，请稍等</column>
+            <column name="content">现在是使用高峰时段。太多人正在玩了。Telegram 现在对 bot 有使用限制。对于这个情况我们什么都没法做。一旦我们达到大约 4000 个玩家同时在线，机器人试图发送的信息数量就会超过 Telegram 的允许限度，于是 Telegram 就会阻止它再发送任何信息。
 
-Again, there is nothing I can do about this.  Development has currently started on a new Werewolf game, and most of my focus is on that right now.
+再说一遍，对于这个情况我们什么都没法做。一个新狼人游戏的开发已经开始了，现在我们多数的注意力都聚焦在这个上面。
 
-Also, please - this is the support group. Ask your questions here, do not PM the developer.  He already has &gt;800 chats open from everyone sending PMs.</column>
+还有就是，这里是帮助群组。在这里问你的问题，不要去私聊开发者。为了这些私聊他已经开了超过 800 个聊天了。</column>
             <column name="importance">HIGH</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">5</column>
             <column name="type">0</column>
-            <column name="title">OFFTOPIC</column>
-            <column name="description">Send out offtopic link..</column>
-            <column name="content">Hey everyone! We have made a new channel to talk anything off topic related. Please join us here at https://telegram.me/OfftopicWW and keep this channel more support related and less off topic</column>
+            <column name="title">不相关的内容</column>
+            <column name="description">发送不相关的东西……</column>
+            <column name="content">你们好！我们新建了一个专门讨论与狼人不相关的内容的群组。请按 https://telegram.me/OfftopicWW 加入我们，然后让这个群组更加专注于狼人帮助，少一些不相关的话题。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">6</column>
             <column name="type">0</column>
-            <column name="title">ADDBOT</column>
-            <column name="description">How to add wwbot?</column>
-            <column name="content">You can add it just like you would add a friend by their usernames (click Add Member and then type @werewolfIIbot into the search box), or you can go to the bot's profile by clicking its name and click 'Add to group'!</column>
+            <column name="title">添加机器人</column>
+            <column name="description">如何添加一个狼人机器人？</column>
+            <column name="content">添加一个机器人就像用用户名添加一个朋友一样（按添加成员，然后在搜索框输入 @werewolfIIbot）。你也可以通过点击机器人的名称去到它的详情页，然后再选择“添加到群组”！</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">7</column>
             <column name="type">0</column>
-            <column name="title">PLAYWW</column>
-            <column name="description">How to play werewolf</column>
-            <column name="content">How to play:
+            <column name="title">玩狼人</column>
+            <column name="description">如何玩狼人</column>
+            <column name="content">如何游戏：
 
-a. start a game
+a. 开始一场游戏
 
-you can either join games big groups in /grouplist@werewolfbot
-or
-you can add @werewolfbot to your own groups and start the game in your groups with friends.
+你可以在 /grouplist@werewolfbot 群组列表中找一个现成的游戏群组加入他们，或者把 @werewolfbot 拉进你自己的群组中然后在群组内和你的朋友一起进行游戏。
 
-b. what is werewolf
+b. 什么是狼人游戏
 
-Werewolf is a text based game where there is a village. Most of the people are villagers and some of them are werewolves. The game cycles through day and night. During the day the whole village votes to lynch someone and at night the werewolves choose someone to kill. The villagers win when all of the werewolves are dead. The werewolves win when there are more werewolves than villagers</column>
+狼人游戏是一个基于文字的，在一个村子里进行的游戏。多数玩家是村民，但一些玩家是狼人。游戏在白天和夜晚之间循环。在白天整个村子举行公投决定将某人处决，在晚上狼人们选择一个人吃掉。当所有狼人全部死去时，村民胜利。当狼人数量大于村民数量时，狼人胜利。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">8</column>
             <column name="type">0</column>
-            <column name="title">SPAM</column>
-            <column name="description">Spamming commands is bad</column>
-            <column name="content">A few people are getting banned for flooding the bot.  Let me explain a few things here:
+            <column name="title">垃圾信息</column>
+            <column name="description">乱发命令是不好的。</column>
+            <column name="content">部分玩家因为乱发bot命令被封了。让我在这里说明一些事情：
 
-Spamming a command is not some kind of magic.  Hitting a command 40 times will not make anything magical happen.  It's like the button on an elevator - pressing it multiple times is not a secret passcode or anything.
+乱发命令并不是某种魔法。连着按 40 遍命令并不会有什么神奇的事情发生。这就像是电梯按钮一样——按一个按钮好几遍并不是一个神秘代码或者什么奇怪的玩意。
 
-The spam detection is actually quite lenient.  If you hit it, you were seriously spamming it.  The bot also warns you before it bans you.  
+垃圾信息检测机制实际上已经很仁慈了。如果你触发了它，那说明你乱发垃圾信息的情况已经很严重了。机器人在封你账号之前也是会警告你的。
 
-Here's the bigger reason why this happens though - 
-Everytime you hit a command, it's meant to get a response from the bot.  Each time the bot has to send a command, it counts towards the API limit.  So spamming a command reaches the bot towards API limits, and lags the bot for EVERYONE.  This is why we are very strict about spamming the bot - if you do it enough for the bot to auto-ban you, that's on you.  You were given a warning and continued to spam the bot.</column>
+还有一些更加重要的原因。每当你按一个命令，你就会从机器人那里得到一个回复。机器人发送的每一条回复，都会计算进机器人的 API 限额里。于是乱发命令会让机器人离 API 限额越来越近，然后拖慢所有人的游戏。所有人的。这就是为什么我们对待乱发命令的行为如此严格的原因。如果你被自动封号了，那就是你自己的问题。你收到警告之后还在乱发命令，怪谁？</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">9</column>
             <column name="type">0</column>
-            <column name="title">GROUPLIST</column>
-            <column name="description">How to get in the grouplist?</column>
-            <column name="content">To add your group to the grouplist, first find out if it's a public or private groups! Public groups have usernames, like @werewolfcommittee, while private groups have invite links, like https://telegram.me/joinchat/B7EXdD1l2nZnyyHrsP0ZYw ! A public group should automatically appear on the list, but a private group must be added by their admin. To do that, just use the setlink command! Usage is as follows:
+            <column name="title">群组列表</column>
+            <column name="description">如何被群组列表收入？</column>
+            <column name="content">要将你的群组加入到群组列表中，首先你需要确认这是公开群组还是私密群组。公开群组有用户名，像是 @werewolfcommittee ，而私密群组有邀请链接，比如 https://telegram.me/joinchat/B7EXdD1l2nZnyyHrsP0ZYw ！一个公开群组应该会自动出现在群组列表里，但是私密群组需要被管理员手动添加。如果要这么做，用 setlink 命令就好！使用方法如下：
 /setlink https://telegram.me/joinchat/B7EXdD1l2nZnyyHrsP0ZYw
-If it doesn't work, please try /setlink@werewolfbot or /setlink@werewolfIIbot, depending on which bot is in your group!
+如果它没有用，试试 /setlink@werewolfbot 或者 /setlink@werewolfIIbot ，取决于你的群组里是哪一个机器人。
 
-Please keep in mind that each language\'s list only has the top 10 biggest groups! If your group is smaller than all of them, it won\'t appear until it gets bigger!</column>
+请注意每个语言只会列出最大的 10 个群组。如果你的群组比它们都小，那么在你的群组变大之前它都不会出现在列表中。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">10</column>
             <column name="type">0</column>
-            <column name="title">UPDATES</column>
-            <column name="description">When will we get new features?</column>
-            <column name="content">Para has a lot to do, and has mostly been coding werewolf at work. Werewolf is a crapload of stress and time, and he has a lot to do. Updates are planned, but are not anywhere close to a priority right now.</column>
+            <column name="title">更新</column>
+            <column name="description">我们什么时候能得到新功能？</column>
+            <column name="content">Para（开发者）有很多事情要做，而且狼人游戏多数是他在上班时间编写的。这是一项大工程。更新已经在计划中了，但是目前并不是一个优先事项。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">11</column>
             <column name="type">0</column>
-            <column name="title">STOP</column>
-            <column name="description">How to stop/kill a game?</column>
-            <column name="content">To stop a game just use /smite on everyone playing!
-Alternatively, if the game is still on its joining phase and hasn't reached five players yet, you can use /forcestart!
+            <column name="title">停止游戏</column>
+            <column name="description">如何结束/中止一局游戏？</column>
+            <column name="content">
+如果要停止一局游戏，直接在游戏过程中用 /smite 就行了！或者，如果游戏还在募集阶段而且还没凑够五个玩家，你还可以用 /forcestart ！
 
-While the killgame command does exist, it should only be used in true emergencies like bugged groups, and as such is only usable by global admins.</column>
+虽然 killgame 命令存在，但是它只应该在非常紧急的情况中使用，比如出现问题的群组。因此，这个命令仅限全域管理员能够使用。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">12</column>
             <column name="type">0</column>
-            <column name="title">AMNESIA</column>
-            <column name="description">Bot not telling your role?</column>
-            <column name="content">If the bot isn't telling you your role, there are a few possibilities!
+            <column name="title">失忆</column>
+            <column name="description">机器人没有告诉你你的角色？</column>
+            <column name="content">如果机器人没有告诉你你的角色，这里有一些可能性。
 
-1: If the bot sent you something among the lines of &quot;You can't seem to remember your role!&quot;, your group's language is set to Amnesia Mode! Ask an admin to change it to another mode if you don't like it!
+a. 如果机器人向你发送了诸如“奇怪……你突然不记得自己是谁了。”的一些东西，那说明你的群组语言选项被设定成了失忆模式。如果你不喜欢的话请找管理让他切换到别的模式！
 
-2: If the bot hasn't sent you any PMs at all, please check if you have started the bot! Be careful: there are two bots, you may have started only one of them!
+b. 如果机器人什么信息都没有发给你，请确认你已经启动了这个机器人！注意：这里有两个狼人机器人，你可能只启动了另外一个！
 
-3: If you have started the right bot, it used to send you PMs and doesn't anymore, please keep talking to us so we can try to find out what the issue is!</column>
+c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，但是后来没有了，请跟我们联系以帮助我们确定问题出在哪里！</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">13</column>
             <column name="type">0</column>
-            <column name="title">SKKILL</column>
-            <column name="description">Why sk didn't kill harlot too, difference between sk/ww kills</column>
-            <column name="content">The difference between a Serial Killer and a Werewolf is that, while a Werewolf chooses a house to attack and kills everyone inside (and only the people inside), the Serial Killer chooses a victim, tracks them to wherever they are and kills only them, regardless of who else is in the house.
+            <column name="title">杀人魔技能</column>
+            <column name="description">为什么杀人魔不一起杀死妓女？杀人魔与狼人之间的技能差异</column>
+            <column name="content">杀人魔与狼人之间的差异是这样的。当狼人选择一间屋子攻击然后杀死这间屋子里的所有人（也就是以屋子为准），杀人魔选择一个受害者，追踪到他，然后杀了他，无论他在哪，而且无视在屋子里的其他角色（也就是以角色为准）。
 
-That means a wolf will not be able to kill a harlot if she's not home, but will kill one if she's at his chosen house... And a serial killer won't kill a harlot if she's at his victim's house, but will kill a harlot if he chooses her as his victim regardless of whose house she's in.</column>
+这意味着狼人没有办法杀死一个不在家的妓女，但是如果在狼人选择的屋子里出现妓女，它会杀了她。相反，如果妓女在杀人魔选择的受害者的房间里，杀人魔不会理她。但是如果杀人魔选择杀死妓女，妓女无论跑到谁家都无济于事。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">15</column>
             <column name="type">0</column>
-            <column name="title">SPAMPERIOD</column>
-            <column name="description">Spam Periods at different stages</column>
-            <column name="content">As of this point, the automatic flood detection has been updated.  If you spam the bot, you will be given a warning.  After that, banning will set in. 
-First ban: 12 hours
-Second ban: 1 day
-Third ban: 3 days
-Fourth ban: You are done. You are forever banned from @werewolfbot
+            <column name="title">垃圾消息封禁时间</column>
+            <column name="description">不同阶段中的垃圾信息封禁时间</column>
+            <column name="content">目前，垃圾信息自动检测封禁系统已经更新了。如果你乱发机器人指令，你会被警告一次。如果你没有悔改，你就会被封禁。
+第一次封禁：12 小时
+第二次封禁：1 天
+第三次封禁：3 天
+第四次封禁：行了。你完蛋了。你已经被机器人永久封禁。
 
-When you get banned, the bot will no longer respond to you.  It won\'t even say \&quot;You are banned\&quot; - this would just allow spammers to keep spamming the bot, which wouldn\'t solve anything. There will be no more ban appeals for spamming</column>
+一旦你被封禁，机器人不会再对你有任何反应。它甚至不会跟你说“你被封禁了”——这只会让乱发消息的人继续乱发消息，以至于解决不了任何问题。所以，对于乱发消息被封不会有更多的封禁提示。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">20</column>
             <column name="type">0</column>
-            <column name="title">SETUP</column>
-            <column name="description">Support on cloning the bot will NOT be given</column>
-            <column name="content">Support WILL NOT be given on @werewolfsupport if you have no idea what compile or runtime or any of these things mean.  If you are a serious developer, and we can tell you at least got most of it done, we can answer small questions (it is possible Para left something out of the setup guide) Cause if you try to set up a bot, you should have some basis (google IS a good place to start).</column>
+            <column name="title">安装</column>
+            <column name="description">关于克隆机器人的帮助不会被提供</column>
+            <column name="content">@werewolfsupport 不会在你不知道诸如编译、runtime 或者与这些其他什么东西是什么意思的时候向你伸出援手。如果你是一个认真的开发者，已经完成了主要部分的工作，我们可以回答你一些细微的问题（毕竟 Para 是有可能把某些东西忘在安装教程外了的）。这是因为既然你要搭建一个机器人，你应该要有一些基础（Google 是个开始的好地方）。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">19</column>
             <column name="type">0</column>
-            <column name="title">HOWTO</column>
-            <column name="description">how to kill/vote/lynch?</column>
-            <column name="content">The bots will send you the choices via PM, just simply click on the options.</column>
+            <column name="title">如何操作</column>
+            <column name="description">如何杀人/投票/处决？</column>
+            <column name="content">机器人会通过私聊把信息发给你。直接点选对应的选项就好了。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">21</column>
             <column name="type">0</column>
-            <column name="title">CHAOS</column>
-            <column name="description">Difference between Chaos and Normal</column>
-            <column name="content">Differently from Normal Mode, in which roles are distributed according to the number of players in the game (for example, a 5-people game will only have Drunk, Villager, Wolf and Tanner as possible roles), Chaos Mode will take roles randomly from all of the available roles in the game and distribute them to players regardless of how many are in the game - so, while a Normal game would only have a Serial Killer if it had at least 25 players, a Chaos game could have one in a 5-people game.
+            <column name="title">混乱模式</column>
+            <column name="description">普通模式与混乱模式的差别</column>
+            <column name="content">与角色分配按照玩家总数决定的普通模式不同的是，在混乱模式中，所有游戏中出现的角色将会被随机派发给所有人，具体玩家数量无关紧要。所以，杀人魔在普通场时至少需要 25 个玩家才会出现，在混乱模式中可能 5 人局就出现一个。
 
-There are some rules Chaos Mode follows when deciding roles, though! Cultists will only be available as a role in games with more than 10 people, and no Chaos game should ever start out with more than 1/6 of its population being a wolf (Cursed, Traitor etc is not counted)!</column>
+但是混乱模式在分配角色时还是遵守一些规则的。邪教徒只会在 10 人或以上场出现，而且总狼数不会超过总人数的 1/6 （被诅咒的人和背叛者不会被计算为狼）！</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">22</column>
             <column name="type">0</column>
-            <column name="title">CHANGELANG</column>
-            <column name="description">How to change the bot's language</column>
-            <column name="content">First, please keep in mind there are two different language configurations! Use /setlang to change the language the bot should use with you on PM, while you use /rolelist or other commands like that one. Use /config on a group if you're its admin and want to change the language the bot uses on your group and on its games (including PMs relating to such games!)</column>
+            <column name="title">更换语言</column>
+            <column name="description">如何更改机器人的语言</column>
+            <column name="content">注意这里有两个不同的语言设定项目。使用 /setlang 来修改你使用 /rolelist 或类似指令时机器人给你回复用的语言。如果你是群组管理员，在群组中使用 /config 来修改机器人在群组中所使用的语言（包括游戏和游戏进程相关的私聊信息）！</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">23</column>
             <column name="type">0</column>
-            <column name="title">BOTSISSUE</column>
-            <column name="description">We know both bots are having issues, wait and don't spam</column>
-            <column name="content">Hello! We are aware the bots are experiencing issues! Our dev team is working on fixing that, so please be patient!
+            <column name="title">机器人都出现问题</column>
+            <column name="description">我们知道机器人都出现了问题。请耐心等待，不要乱发指令</column>
+            <column name="content">嘿！我们已经知道两个机器人都出现问题了！我们的开发团队正在努力修复问题，所以请耐心等待！
 
-In the meanwhile, to ensure the group's order and to protect the bot from further issues, please DO NOT USE COMMANDS, including ping! The less commands the bot is sent, the faster it'll recover.
+在此期间，为了确保群组内的秩序以及防止机器人出现更多问题，请不要使用命令，包括 ping ！越少的命令使用意味着越快的恢复速度。
 
-On times of stress like this one, we kick fast. Do not be off-topic or use commands in this group, or you'll be immediatelly kicked!</column>
+在这种紧张的时候，我们踢人会很快。不要在群组内讨论无关话题或者使用命令，否则你会被立即踢出去！</column>
             <column name="importance">HIGH</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">24</column>
             <column name="type">0</column>
-            <column name="title">BOT1ISSUE</column>
-            <column name="description">We know bot 1 is having issues, switch to 2</column>
-            <column name="content">Hello! We are aware @werewolfbot is experiencing issues! Our dev team is working on fixing that, so please be patient!
+            <column name="title">机器人 1 出现问题</column>
+            <column name="description">我们知道机器人 1 出现了问题。换 2 用</column>
+            <column name="content">嘿！我们已经知道 @werewolfbot 出现问题了！我们的开发团队正在努力修复问题，所以请耐心等待！
 
-In the meanwhile, please make your group temporarily switch from @werewolfbot to @werewolfIIbot, as the second bot is not experiencing these issues!</column>
+在此期间，请暂时将你群组中的机器人切换到 @werewolfiibot ，因为这个机器人没有出现这些问题，同时，请不要向机器人 1 乱发指令！</column>
             <column name="importance">HIGH</column>
         </table>
         <table name="wwfaqbot">
@@ -211,111 +208,100 @@ In the meanwhile, please make your group temporarily switch from @werewolfbot to
         <table name="wwfaqbot">
             <column name="num">29</column>
             <column name="type">0</column>
-            <column name="title">SMITE</column>
-            <column name="description">How to smite?</column>
-            <column name="content">To smite a player (or multiple players!), just mention them after your smite command! Your message should look like this:
+            <column name="title">踢出游戏</column>
+            <column name="description">如何将一个人踢出游戏？</column>
+            <column name="content">要将一个人（或几个人）踢出游戏，单纯在 smite 命令后边提起他们就行了！你的命令应该看起来像这样：
 /smite @username1 @username2
 
-If they don't have an username, you can also mention by name by typing @ and then following with their name!
+如果他们没有用户名，你也可以通过打 @ 跟着他们的名字来指定他们！
 
-If they both don't have an username and aren't in the group anymore, you can also smite by id! Find out a user's ID by replying to one of their messages with /id if you have Werewolf Enforcer on your group, or by forwarding one of their messages to @userinfobot if you don't. Once you have that player's ID, smite by using /smite 00000000 (in which 00000000 is the user's ID)
+如果他不仅没有用户名，而且已经不在群组内了，你还可以通过他的 ID 来踢出他！要找出他的 ID，你先找一条他发过的消息。如果你的群组内有 Werewolf Enforcer，在这条消息下回复 /id 就行。如果没有，那就把这条消息转发到 @userinfobot 。当你得到他的 ID 之后，你就可以用 /smite 00000000 （00000000 表示用户 ID）来踢出他。
 
-(Smiting used to work by reply, but it doesn't anymore)</column>
+（这个命令曾经可以通过回复使用，但现在不行了。）
+
+踢出游戏后，这个玩家会被记为“离开游戏”，在游戏处理中记作“死亡”，但依旧有可能因为他的角色而赢得游戏。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">26</column>
             <column name="type">0</column>
-            <column name="title">CULTCONVERSION</column>
-            <column name="description">Cult conversion chances, who kills cultists	</column>
-            <column name="content">CHANCES A CERTAIN ROLE WILL BE CONVERTED:
-Seer: 40%
-Guardian Angel: 60%
-Detective: 70%
-Cursed: 60%
-Harlot: 70%
-Hunter: 50%
-(Untransformed) Doppelganger: 0%
-Werewolf: 0%
+            <column name="title">邪教施洗</column>
+            <column name="description">邪教传教成功率，谁会杀死邪教徒</column>
+            <column name="content">特定角色被传教的成功率：
+砖瓦工、酒鬼、旁观者、枪手、叛徒、先知学徒、孤儿、傻瓜、丘比特、皮匠：100% （绝对成功）
+侦探、妓女：70%
+守护天使、被诅咒的人：60%
+猎人：50%
+先知：40%
+（未转化的）替身、狼人：0%（绝对失败）
 
-ROLES THAT KILL CULT:
-Hunter: 25% chance of killing cult (50% chance conversion fails, and then 50% chance hunter kills cultist considering conversion failed)
-Serial Killer
-Cultist Hunter
-
-ROLES THAT WILL ALWAYS BE CONVERTED:
-Mason
-Drunk
-Beholder
-Gunner
-Traitor
-Apprentice Seer
-Wild Child
-Fool
-Cupid
-Tanner</column>
+会杀死邪教徒的角色：
+杀人魔
+邪教捕手
+猎人：25%（50% 几率传教失败，如果传教失败有 50% 几率杀死邪教徒）</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">27</column>
             <column name="type">0</column>
-            <column name="title">HOWTOPLAY</column>
-            <column name="description">Werewolf Game Flow Explained</column>
-            <column name="content">1. Start a game using /startgame or /startchaos. After the game is started, everyone can /join.
-2. When the game start, the bot will pm you your role. It will contain your role name and your ability and when to use it (if any).
-3. The game will start at night phase. At this time, cupid, wild child, and Doppelganger will choose the target of their abilities.
-4. At night phase, night players will be contacted to use their ability. Choose the target from the list sent by the bot. The result will be pm'd by the bot at the end of the night.
-5. After certain time or after all the night players uses all their abilities, the game enter day phase. At this phase, day players can use their abilities. Choose the target from the list sent by the bot by pm. The result will be apparent by the bot at the end of the day.
-6. At daytime, the players can argue within the village on who to lynch until the end of the day. At the end of the day, the players can vote by choosing from the list sent by the bot via pm. The recipient of most votes will be killed. In case of tie, no one will be lynched.
-7. After lynching is over, the game shifts into night phase.
-8. Repeat no. 4 - 7 until a team wins.</column>
+            <column name="title">游戏流程</column>
+            <column name="description">狼人游戏流程说明</column>
+            <column name="content">1. 使用 /startgame （普通模式）或 /startchaos （混乱模式）开新游戏。然后，所有人可以使用 /join 加入游戏。
+2. 游戏开始时，机器人会把你的角色私聊给你。信息会包括你的角色名、你的能力以及（如果有）使用能力的时间。
+3. 游戏从夜间阶段开始。这时，丘比特、孤儿以及替身会选择他们能力的使用对象。
+4. 夜间阶段，夜间玩家会被提示使用能力。在机器人向你发送的列表中选择目标。能力使用结果会在夜晚结束时由机器人通过私聊告诉你。
+5. 当所有夜间玩家使用能力之后，或者夜晚自然结束（超时）后，游戏进入白天阶段。在白天阶段，白天玩家像夜间玩家一样使用能力。能力使用结果会在白天结束时由机器人公布。
+6. 白天阶段，玩家可以在村子内讨论要处死哪位玩家。当白天阶段结束后，你要从机器人私聊发送给你的玩家名单中选择你决定要处刑的对象。最高票当选者将被处决。如果最高票出现平票，没有人会被处决。
+7. 处决结束之后，游戏进入夜间阶段。
+8. 重复第 4 - 7 步直到出现胜者。</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">28</column>
             <column name="type">0</column>
-            <column name="title">WWTEAMS</column>
-            <column name="description">Werewolf Game Teams Explained</column>
-            <column name="content">There are at least 2 teams:
-1. Team village. Objective: to lynch all opposing teams
-2. Team werewolf. Objective: To survive until half the population is werewolf. Each night, team werewolf can feast on someone.
+            <column name="title">狼人游戏分组</column>
+            <column name="description">狼人游戏分组说明</column>
+            <column name="content">至少会有 2 个组：
+1. 村民组。目标是处决所有敌对组。
+2. 狼人组。目标是活到半数人口为狼人。每天晚上，狼人可以选择一个玩家猎食。
 
-After a certain number of player (and/or in chaos mode), we have other teams:
-3. Team Cult. Objective: to convert all the population into cultists. Each night, team cult can try to convert someone.
+玩家达到一定数量（和/或在混乱模式）时，还有另一个组：
+3. 邪教组。目标是让所有人口信奉邪教。每天晚上，邪教徒可以选择一个玩家尝试传教。
 
-There are some individual who have specific win conditions, too:
-4. Serial Killer. Objective: to survive alone in the village. Each night, the serial killer can kill someone.
-5. Tanner. Objective: to be lynched by the village.
-6. Lovers. Not a proper team but a trait shared by two people: if one dies, the other will follow. It also gives special win condition to both lovers: if one win, the other will also win, regardless of their teams. For example, if the lovers is a tanner and a werewolf, if the tanner is lynched, the werewolf will also die. But because the tanner wins, the werewolf will also win while the other werewolves (if any) lose. Try to survive as the last two people standing to get special Lovers Ending!</column>
+以及还有一些胜利条件单独处理的角色：
+4. 杀人魔。目标是成为村子里最后一个活着的人。每天晚上，杀人魔可以杀死一个人。
+5. 皮匠。目标是被村民处决。
+6. 恋人。这不是一个组，而是两人之间的一个特质：一方死后，另一方会殉情。这也给恋人们带来了一个特别的胜利条件：一方胜利则另一方一同胜利，无视组别。比如皮匠和一只狼人成为了恋人，当皮匠被处决时这只狼人也会一起死，但是因为皮匠赢了，这只狼人也会一同胜利（但是其他狼人，假如有的话，会输）。试着活到村子里最后两个活着的人来获得特别的恋人结局！</column>
             <column name="importance">LOW</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">30</column>
             <column name="type">0</column>
-            <column name="title">PLAYERSLIST</column>
-            <column name="description">Why doesn't the players list show up?</column>
-            <column name="content">Players list is now automatically sent at the end of each day / lynch / night cycle, IF a player has died / fled.
-Running /players will not send the whole list, but simply reply to the most recent list.  Less spam in large groups!
+            <column name="title">玩家列表</column>
+            <column name="description">玩家列表怎么显示不出来？</column>
+            <column name="content">玩家列表现在会在白天阶段/处决阶段/夜间阶段结束后自动发送，前提是这个阶段中有人死亡/逃跑。
+使用 /players 不会重新发送一份完整列表，而只是单纯的通过回复来引导到最近的一份。这使得在较大的群组中可以少一些垃圾信息！
 
-If the game has not started yet, there is no latest list for the bot to reply to, and it will not send one.</column>
+如果游戏尚未开始，“最近的一份”列表不存在，因此不会发送列表。</column>
             <column name="importance">HIGH</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">31</column>
             <column name="type">0</column>
-            <column name="title">BOT2ISSUE</column>
-            <column name="description">bot 2 is currently experiencing issues</column>
-            <column name="content">Hello! We are aware @werewolfiibot is experiencing issues! Our dev team is working on fixing that, so please be patient!
+            <column name="title">机器人 2 出现问题</column>
+            <column name="description">我们知道机器人 2 出现了问题。换 1 用</column>
+            <column name="content">嘿！我们已经知道 @werewolIIfbot 出现问题了！我们的开发团队正在努力修复问题，所以请耐心等待！
 
-In the meantime, please don't spam any commands to bot2.</column>
+在此期间，请暂时将你群组中的机器人切换到 @werewolfbot ，因为这个机器人没有出现这些问题，同时，请不要向机器人 2 乱发指令！</column>
             <column name="importance">HIGH</column>
         </table>
         <table name="wwfaqbot">
             <column name="num">32</column>
             <column name="type">0</column>
-            <column name="title">GOTBANNED</column>
-            <column name="description">I got banned! How to get unbanned?</column>
-            <column name="content">Which group was it? Groups are owned by the creator of the group, not by us. If you want to be unbanned from a werewolf group you need to contact an admin from that group. If you tell me which group it was, I can help you find out who to contact.</column>
+            <column name="title">被封号</column>
+            <column name="description">我被封号了！如何解封？</column>
+            <column name="content">是哪一个群组？群组是归它的创建者所有，而不是归我们。如果你想在某个狼人游戏群组中解封，你需要联系那个群组的管理员。如果你告诉我是哪个群组，我们可以帮你确定你要找的应该是谁。
+</column>
             <column name="importance">LOW</column>
         </table>
     </database>
