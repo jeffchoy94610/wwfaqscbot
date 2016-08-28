@@ -2,7 +2,7 @@
 
     <database name="wwfaqbot">
         <!-- Table wwfaqbot -->
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">1</column>
             <column name="type">0</column>
             <column name="title">节点卡死了</column>
@@ -14,7 +14,7 @@
 不要删除你的群组！这会使得你没法玩。作为替代，你可以暂时切换机器人（从 @werewolfbot 到 @werewolfIIbot 或者反过来），或者就这么等到开发人员把这个节点停掉来修复它！</column>
             <column name="importance">HIGH</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">2</column>
             <column name="type">0</column>
             <column name="title">高峰期</column>
@@ -26,7 +26,7 @@
 还有就是，这里是帮助群组。在这里问你的问题，不要去私聊开发者。为了这些私聊他已经开了超过 800 个聊天了。</column>
             <column name="importance">HIGH</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">5</column>
             <column name="type">0</column>
             <column name="title">不相关的内容</column>
@@ -34,7 +34,7 @@
             <column name="content">你们好！我们新建了一个专门讨论与狼人不相关的内容的群组。请按 https://telegram.me/OfftopicWW 加入我们，然后让这个群组更加专注于狼人帮助，少一些不相关的话题。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">6</column>
             <column name="type">0</column>
             <column name="title">添加机器人</column>
@@ -42,7 +42,7 @@
             <column name="content">添加一个机器人就像用用户名添加一个朋友一样（按添加成员，然后在搜索框输入 @werewolfIIbot）。你也可以通过点击机器人的名称去到它的详情页，然后再选择“添加到群组”！</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">7</column>
             <column name="type">0</column>
             <column name="title">玩狼人</column>
@@ -58,7 +58,7 @@ b. 什么是狼人游戏
 狼人游戏是一个基于文字的，在一个村子里进行的游戏。多数玩家是村民，但一些玩家是狼人。游戏在白天和夜晚之间循环。在白天整个村子举行公投决定将某人处决，在晚上狼人们选择一个人吃掉。当所有狼人全部死去时，村民胜利。当狼人数量大于村民数量时，狼人胜利。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">8</column>
             <column name="type">0</column>
             <column name="title">垃圾信息</column>
@@ -72,7 +72,7 @@ b. 什么是狼人游戏
 还有一些更加重要的原因。每当你按一个命令，你就会从机器人那里得到一个回复。机器人发送的每一条回复，都会计算进机器人的 API 限额里。于是乱发命令会让机器人离 API 限额越来越近，然后拖慢所有人的游戏。所有人的。这就是为什么我们对待乱发命令的行为如此严格的原因。如果你被自动封号了，那就是你自己的问题。你收到警告之后还在乱发命令，怪谁？</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">9</column>
             <column name="type">0</column>
             <column name="title">群组列表</column>
@@ -84,7 +84,7 @@ b. 什么是狼人游戏
 请注意每个语言只会列出最大的 10 个群组。如果你的群组比它们都小，那么在你的群组变大之前它都不会出现在列表中。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">10</column>
             <column name="type">0</column>
             <column name="title">更新</column>
@@ -92,7 +92,7 @@ b. 什么是狼人游戏
             <column name="content">Para（开发者）有很多事情要做，而且狼人游戏多数是他在上班时间编写的。这是一项大工程。更新已经在计划中了，但是目前并不是一个优先事项。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">11</column>
             <column name="type">0</column>
             <column name="title">停止游戏</column>
@@ -103,7 +103,7 @@ b. 什么是狼人游戏
 虽然 killgame 命令存在，但是它只应该在非常紧急的情况中使用，比如出现问题的群组。因此，这个命令仅限全域管理员能够使用。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">12</column>
             <column name="type">0</column>
             <column name="title">失忆</column>
@@ -117,7 +117,7 @@ b. 如果机器人什么信息都没有发给你，请确认你已经启动了�
 c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，但是后来没有了，请跟我们联系以帮助我们确定问题出在哪里！</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">13</column>
             <column name="type">0</column>
             <column name="title">杀人魔技能</column>
@@ -127,7 +127,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 这意味着狼人没有办法杀死一个不在家的妓女，但是如果在狼人选择的屋子里出现妓女，它会杀了她。相反，如果妓女在杀人魔选择的受害者的房间里，杀人魔不会理她。但是如果杀人魔选择杀死妓女，妓女无论跑到谁家都无济于事。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">15</column>
             <column name="type">0</column>
             <column name="title">垃圾消息封禁时间</column>
@@ -141,7 +141,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 一旦你被封禁，机器人不会再对你有任何反应。它甚至不会跟你说“你被封禁了”——这只会让乱发消息的人继续乱发消息，以至于解决不了任何问题。所以，对于乱发消息被封不会有更多的封禁提示。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">20</column>
             <column name="type">0</column>
             <column name="title">安装</column>
@@ -149,7 +149,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
             <column name="content">@werewolfsupport 不会在你不知道诸如编译、runtime 或者与这些其他什么东西是什么意思的时候向你伸出援手。如果你是一个认真的开发者，已经完成了主要部分的工作，我们可以回答你一些细微的问题（毕竟 Para 是有可能把某些东西忘在安装教程外了的）。这是因为既然你要搭建一个机器人，你应该要有一些基础（Google 是个开始的好地方）。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">19</column>
             <column name="type">0</column>
             <column name="title">如何操作</column>
@@ -157,7 +157,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
             <column name="content">机器人会通过私聊把信息发给你。直接点选对应的选项就好了。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">21</column>
             <column name="type">0</column>
             <column name="title">混乱模式</column>
@@ -167,7 +167,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 但是混乱模式在分配角色时还是遵守一些规则的。邪教徒只会在 10 人或以上场出现，而且总狼数不会超过总人数的 1/6 （被诅咒的人和背叛者不会被计算为狼）！</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">22</column>
             <column name="type">0</column>
             <column name="title">更换语言</column>
@@ -175,7 +175,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
             <column name="content">注意这里有两个不同的语言设定项目。使用 /setlang 来修改你使用 /rolelist 或类似指令时机器人给你回复用的语言。如果你是群组管理员，在群组中使用 /config 来修改机器人在群组中所使用的语言（包括游戏和游戏进程相关的私聊信息）！</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">23</column>
             <column name="type">0</column>
             <column name="title">机器人都出现问题</column>
@@ -187,7 +187,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 在这种紧张的时候，我们踢人会很快。不要在群组内讨论无关话题或者使用命令，否则你会被立即踢出去！</column>
             <column name="importance">HIGH</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">24</column>
             <column name="type">0</column>
             <column name="title">机器人 1 出现问题</column>
@@ -197,7 +197,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 在此期间，请暂时将你群组中的机器人切换到 @werewolfiibot ，因为这个机器人没有出现这些问题，同时，请不要向机器人 1 乱发指令！</column>
             <column name="importance">HIGH</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">25</column>
             <column name="type">1</column>
             <column name="title">ADDADMIN</column>
@@ -205,7 +205,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
             <column name="content">AgADBQADNagxG7mXWwZtNClrRlLTRJ7SsTIABNFEi36YemBcE8kBAAEC</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">29</column>
             <column name="type">0</column>
             <column name="title">踢出游戏</column>
@@ -222,7 +222,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 踢出游戏后，这个玩家会被记为“离开游戏”，在游戏处理中记作“死亡”，但依旧有可能因为他的角色而赢得游戏。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">26</column>
             <column name="type">0</column>
             <column name="title">邪教施洗</column>
@@ -241,7 +241,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 猎人：25%（50% 几率传教失败，如果传教失败有 50% 几率杀死邪教徒）</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">27</column>
             <column name="type">0</column>
             <column name="title">游戏流程</column>
@@ -256,7 +256,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 8. 重复第 4 - 7 步直到出现胜者。</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">28</column>
             <column name="type">0</column>
             <column name="title">狼人游戏分组</column>
@@ -274,7 +274,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 6. 恋人。这不是一个组，而是两人之间的一个特质：一方死后，另一方会殉情。这也给恋人们带来了一个特别的胜利条件：一方胜利则另一方一同胜利，无视组别。比如皮匠和一只狼人成为了恋人，当皮匠被处决时这只狼人也会一起死，但是因为皮匠赢了，这只狼人也会一同胜利（但是其他狼人，假如有的话，会输）。试着活到村子里最后两个活着的人来获得特别的恋人结局！</column>
             <column name="importance">LOW</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">30</column>
             <column name="type">0</column>
             <column name="title">玩家列表</column>
@@ -285,7 +285,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 如果游戏尚未开始，“最近的一份”列表不存在，因此不会发送列表。</column>
             <column name="importance">HIGH</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">31</column>
             <column name="type">0</column>
             <column name="title">机器人 2 出现问题</column>
@@ -295,7 +295,7 @@ c. 如果你已经启动了正确的机器人，它曾经跟你发过信息，�
 在此期间，请暂时将你群组中的机器人切换到 @werewolfbot ，因为这个机器人没有出现这些问题，同时，请不要向机器人 2 乱发指令！</column>
             <column name="importance">HIGH</column>
         </table>
-        <table name="wwfaqbot">
+        <table name="wwfaqscbot">
             <column name="num">32</column>
             <column name="type">0</column>
             <column name="title">被封号</column>
